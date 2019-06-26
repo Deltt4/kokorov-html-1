@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Kokoro no Kikai Scan</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/19e661383d.js"></script>
+</head>
+<body>
+    
+            <!-- Header -->
+    <header>
+            <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #212121">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="images/logo-3.png" class="logo" alt="">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                          <a class="nav-link" href="mangas.html">Mangas</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="novelas.html">Novelas</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="oneshot.html">OneShot</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="unetenos.html">Únete</a>
+                        </li>
+                      </ul>
+                      <form class="form-inline my-2 my-lg-0 mr-4">
+                            <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
+                            <button type="button" class="btn btn-outline-secondary">Buscar</button>
+                        </form>
+                    </div>
+            </nav>
+    </header>
+            <!-- Header -->
+
+
+                <!-- TextoHeader -->
+        <section class="text">
+            <div class="container-fluid">
+                <div class="row justify-content-center align-items-center height" style="background-color: white">
+                    <div class="col">
+                        <h2 class="traductores-mangas">Traductores de Manga y Novelas Ligeras</h2>    
+                    </div>
+            </div>
+        </section>
+                <!-- Texto Header -->
+
+        <main role="main" class="container-fluid">
+            <div class="row">
+                <div class="col-12" style="margin-left: 9%;">
+                    <div class="form-row">
+                        <div class="col-12 col-md-9 mt-2">
+                            <input id="title_item" class="form-control order-select form-control-lg" placeholder="Escribe el nombre del Manga..." name="title" type="search">
+                        </div>
+                        <div class="col-4 col-md-2 mt-2">
+                            <button class="btn btn-outline-success my-2 my-sm-0" style="height: 90%;margin-top: 1.5% !important;" type="submit">Buscar</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="col-12 col-lg-4 col-xl-3 ml-3 mt-3">
+                    <button type="button" class="btn btn-kokoro btn-genero" style="padding:.375rem 5rem; margin-left: 5%;">Géneros</button>
+                    <div class="container-generos-mn mt-3">
+                        <a href="#">
+                            <button type="button" class="btn btn-kokoro btn-generos btn-gen">Acción</button>
+                        </a>
+                        <a href="#">
+                            <button type="button" class="btn btn-kokoro btn-generos btn-gen btn-min">Harem</button>
+                        </a>
+                        <a href="#">
+                            <button type="button" class="btn btn-kokoro btn-generos btn-gen">Ecchi</button>
+                        </a>
+                        <a href="#">
+                            <button type="button" class="btn btn-kokoro btn-generos btn-gen btn-min">Magia</button>
+                        </a>
+                        <a href="#">
+                            <button type="button" class="btn btn-kokoro btn-generos btn-gen">Drama</button>
+                        </a>
+                        <a href="#">
+                            <button type="button" class="btn btn-kokoro btn-generos btn-gen btn-min">Comedia</button>
+                        </a>
+                        <a href="#">
+                            <button type="button" class="btn btn-kokoro btn-generos btn-gen">Fantasía</button>
+                        </a>
+                        <a href="#">
+                            <button type="button" class="btn btn-kokoro btn-generos btn-gen btn-min">Romance</button>
+                        </a>
+                        <a href="#">
+                            <button type="button" class="btn btn-kokoro btn-generos btn-gen">Aventura</button>
+                        </a>
+                        <a href="#">
+                            <button type="button" class="btn btn-kokoro btn-generos btn-gen btn-min">Vida Escolar</button>
+                        </a>
+                        <a href="#">
+                            <button type="button" class="btn btn-kokoro btn-generos btn-gen">Vampiros</button>
+                        </a>
+                        <a href="#">
+                            <button type="button" class="btn btn-kokoro btn-generos btn-gen">Música</button>
+                        </a>
+                        <a href="#">
+                            <button type="button" class="btn btn-kokoro btn-generos btn-gen">Misterio</button>
+                        </a>
+                        <a href="#">
+                            <button type="button" class="btn btn-kokoro btn-generos btn-gen">Mecha</button>
+                        </a>
+                        <a href="#">
+                            <button type="button" class="btn btn-kokoro btn-generos btn-gen">Reencarnación</button>
+                        </a>
+                        <a href="#">
+                            <button type="button" class="btn btn-kokoro btn-generos btn-gen">Tragedia</button>
+                        </a>
+                        <a href="#">
+                            <button type="button" class="btn btn-kokoro btn-generos btn-gen">Supervivencia</button>
+                        </a>
+                        <a href="#">
+                            <button type="button" class="btn btn-kokoro btn-generos btn-gen">Realidad Virtual</button>
+                        </a>
+                    </div>
+                </div> -->
+            </div>
+            <div class="row mt-3 ml-3 mr-3">
+                    <div class="element  col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                        <a href="#">
+                            <div class="cards book-card">
+                                <img class="images" src="images/maou.jpg" alt="">
+                                <div class="cards-title justify-content-center align-items-center">
+                                    <h4 class="title-mgn" title="Maou Gakuin no Futekigousha">Maou Gakuin no Futekigousha</h4>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="element  col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                        <a href="#">
+                            <div class="cards book-card">
+                                <img class="images" src="images/maou.jpg" alt="">
+                                <div class="cards-title justify-content-center align-items-center">
+                                    <h4 class="title-mgn" title="Maou Gakuin no Futekigousha">Maou Gakuin no Futekigousha</h4>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="element  col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                        <a href="#">
+                            <div class="cards book-card">
+                                <img class="images" src="images/maou.jpg" alt="">
+                                <div class="cards-title justify-content-center align-items-center">
+                                    <h4 class="title-mgn" title="Maou Gakuin no Futekigousha">Maou Gakuin no Futekigousha</h4>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="element  col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                        <a href="#">
+                            <div class="cards book-card">
+                                <img class="images" src="images/maou.jpg" alt="">
+                                <div class="cards-title justify-content-center align-items-center">
+                                    <h4 class="title-mgn" title="Maou Gakuin no Futekigousha">Maou Gakuin no Futekigousha</h4>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="element  col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                        <a href="#">
+                            <div class="cards book-card">
+                                <img class="images" src="images/maou.jpg" alt="">
+                                <div class="cards-title justify-content-center align-items-center">
+                                    <h4 class="title-mgn" title="Maou Gakuin no Futekigousha">Maou Gakuin no Futekigousha</h4>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="element  col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                        <a href="#">
+                            <div class="cards book-card">
+                                <img class="images" src="images/maou.jpg" alt="">
+                                <div class="cards-title justify-content-center align-items-center">
+                                    <h4 class="title-mgn" title="Maou Gakuin no Futekigousha">Maou Gakuin no Futekigousha</h4>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    </div>
+            <div class="row mt-3 ml-3 mr-3">
+                    <div class="element  col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                        <a href="#">
+                            <div class="cards book-card">
+                                <img class="images" src="images/maou.jpg" alt="">
+                                <div class="cards-title justify-content-center align-items-center">
+                                    <h4 class="title-mgn" title="Maou Gakuin no Futekigousha">Maou Gakuin no Futekigousha</h4>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="element  col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                        <a href="#">
+                            <div class="cards book-card">
+                                <img class="images" src="images/maou.jpg" alt="">
+                                <div class="cards-title justify-content-center align-items-center">
+                                    <h4 class="title-mgn" title="Maou Gakuin no Futekigousha">Maou Gakuin no Futekigousha</h4>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="element  col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                        <a href="#">
+                            <div class="cards book-card">
+                                <img class="images" src="images/maou.jpg" alt="">
+                                <div class="cards-title justify-content-center align-items-center">
+                                    <h4 class="title-mgn" title="Maou Gakuin no Futekigousha">Maou Gakuin no Futekigousha</h4>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="element  col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                        <a href="#">
+                            <div class="cards book-card">
+                                <img class="images" src="images/maou.jpg" alt="">
+                                <div class="cards-title justify-content-center align-items-center">
+                                    <h4 class="title-mgn" title="Maou Gakuin no Futekigousha">Maou Gakuin no Futekigousha</h4>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="element  col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                        <a href="#">
+                            <div class="cards book-card">
+                                <img class="images" src="images/maou.jpg" alt="">
+                                <div class="cards-title justify-content-center align-items-center">
+                                    <h4 class="title-mgn" title="Maou Gakuin no Futekigousha">Maou Gakuin no Futekigousha</h4>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="element  col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                        <a href="#">
+                            <div class="cards book-card">
+                                <img class="images" src="images/maou.jpg" alt="">
+                                <div class="cards-title justify-content-center align-items-center">
+                                    <h4 class="title-mgn" title="Maou Gakuin no Futekigousha">Maou Gakuin no Futekigousha</h4>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    </div>
+            <div class="row mt-3 ml-3 mr-3">
+                    <div class="element  col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                        <a href="#">
+                            <div class="cards book-card">
+                                <img class="images" src="images/maou.jpg" alt="">
+                                <div class="cards-title justify-content-center align-items-center">
+                                    <h4 class="title-mgn" title="Maou Gakuin no Futekigousha">Maou Gakuin no Futekigousha</h4>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="element  col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                        <a href="#">
+                            <div class="cards book-card">
+                                <img class="images" src="images/maou.jpg" alt="">
+                                <div class="cards-title justify-content-center align-items-center">
+                                    <h4 class="title-mgn" title="Maou Gakuin no Futekigousha">Maou Gakuin no Futekigousha</h4>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="element  col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                        <a href="#">
+                            <div class="cards book-card">
+                                <img class="images" src="images/maou.jpg" alt="">
+                                <div class="cards-title justify-content-center align-items-center">
+                                    <h4 class="title-mgn" title="Maou Gakuin no Futekigousha">Maou Gakuin no Futekigousha</h4>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="element  col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                        <a href="#">
+                            <div class="cards book-card">
+                                <img class="images" src="images/maou.jpg" alt="">
+                                <div class="cards-title justify-content-center align-items-center">
+                                    <h4 class="title-mgn" title="Maou Gakuin no Futekigousha">Maou Gakuin no Futekigousha</h4>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="element  col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                        <a href="#">
+                            <div class="cards book-card">
+                                <img class="images" src="images/maou.jpg" alt="">
+                                <div class="cards-title justify-content-center align-items-center">
+                                    <h4 class="title-mgn" title="Maou Gakuin no Futekigousha">Maou Gakuin no Futekigousha</h4>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="element  col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                        <a href="#">
+                            <div class="cards book-card">
+                                <img class="images" src="images/maou.jpg" alt="">
+                                <div class="cards-title justify-content-center align-items-center">
+                                    <h4 class="title-mgn" title="Maou Gakuin no Futekigousha">Maou Gakuin no Futekigousha</h4>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    </div>
+
+        </main>
+             
+
+
+                
+            <!-- Footer -->
+            <footer class="footer pt-5" id="footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6 col-md-3">
+                            <h3 class="text-headline">Sitio</h3>
+                            <ul class="list-unstyled">
+                            <li><a href="#">Sobre Nosotros</a></li>
+                            <li><a href="#">Preguntas Frecuentes</a></li>
+                            <li><a href="">Términos y Condiciones</a></li>
+                            <li><a href="">Normas de la comunidad</a></li>
+                            <li><a href="">Únetenos</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-6 col-md-3">
+                            <h3 class="text-headline">Explorar</h3>
+                            <ul class="list-unstyled">
+                            <li><a href="">Mangas</a></li>
+                            <li><a href="">Novelas</a></li>
+                            <li><a href="">OneShot</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-xs-12 col-md-6">
+                        <div class="col-xs-12 no-padding">
+                            <h3 class="text-headline">Contenido</h3>
+                            <p>Somos un grupo de personas dedicados a la traducción de mangas y novelas ligeras como Hobby. De Fans y para Fans.</p>
+                        </div>
+                            <div class="col-xs-12 no-padding">
+                                <h3 class="text-headline">Social</h3>
+                                <p>
+                                <a href="" target="_blank" class="btn btn-social btn-stroke btn-facebook"><i class="fab fa-facebook-f"></i><span class="sr-only">Facebook</span></a>
+                                <a href="" target="_blank" class="btn btn-social btn-stroke btn-twitter"><i class="fab fa-twitter"></i><span class="sr-only">Twitter</span></a>
+                                <a href="" target="_blank" class="btn btn-social btn-stroke btn-youtube"><i class="fab fa-youtube"></i><span class="sr-only">YouTube</span></a>
+                                <a href="" target="_blank" class="btn btn-social btn-stroke btn-discord"><i class="fab fa-discord"></i></i><span class="sr-only">Discord</span></a>
+<!--                                 <a href="" target="_blank" class="btn btn-social btn-stroke btn-email"><i class="fab fa-fw fa-email"></i><span class="sr-only">Email</span></a>
+ -->                                </p>
+                                <p class="text-subhead">
+                                © 2018 - 2019 Kokoro no Kikai Scan
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <!-- Footer -->
+
+                    
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>
